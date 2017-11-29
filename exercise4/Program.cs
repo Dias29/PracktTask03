@@ -16,6 +16,8 @@ namespace exercise4
             Console.WriteLine(str);
             string[] strArr = str.Split(" ".ToCharArray(), StringSplitOptions.RemoveEmptyEntries);
             Console.WriteLine("Количество слов в предложении = " + strArr.Length);
+
+            Console.ReadLine();
         }
     }
 }
