@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using static System.Console;
 
 namespace PracktTask03
 {
@@ -14,7 +15,7 @@ namespace PracktTask03
 
             //заполнение одномерного массива
             Console.WriteLine("Введите 5 элемента массива: ");
-            for (int i=0; i<oneDimensArray.Length; i++)
+            for (int i = 0; i < oneDimensArray.Length; i++)
             {
                 oneDimensArray[i] = Convert.ToInt32(Console.ReadLine());
             }
@@ -41,19 +42,19 @@ namespace PracktTask03
             Console.Write("Произведение массива: " + composition);
 
             //заполнение и вывод двумерного массива
-            double[,] twoDimensArray = new double[3,4];
+            double[,] twoDimensArray = new double[3, 4];
             Random rand = new Random();
 
-            for(int i =0; i<3; i++)
-                for(int j =0; j<4; j++)
+            for (int i = 0; i < 3; i++)
+                for (int j = 0; j < 4; j++)
                 {
-                    twoDimensArray[i, j] = rand.Next(0, 100)/10.0;
+                    twoDimensArray[i, j] = rand.Next(0, 100) / 10.0;
                 }
 
             Console.WriteLine("\n\nМассив 3х4: ");
-            for(int i=0; i<3; i++)
+            for (int i = 0; i < 3; i++)
             {
-                for(int j=0; j<4; j++)
+                for (int j = 0; j < 4; j++)
                 {
                     Console.Write(twoDimensArray[i, j] + "    ");
                 }
@@ -81,12 +82,7 @@ namespace PracktTask03
             Console.Write("\nМинимальный элемент: " + min2);
             Console.Write("\nМаксимальный элемент: " + max2);
 
-
-
-
-
             Console.ReadLine();
-           
         }
     }
 }

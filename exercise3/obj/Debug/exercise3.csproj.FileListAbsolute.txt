@@ -1,0 +1,5 @@
+C:\Users\УринбасаровД\Documents\Visual Studio 2017\Projects\PracktTask03\exercise3\bin\Debug\exercise3.exe.config
+C:\Users\УринбасаровД\Documents\Visual Studio 2017\Projects\PracktTask03\exercise3\bin\Debug\exercise3.exe
+C:\Users\УринбасаровД\Documents\Visual Studio 2017\Projects\PracktTask03\exercise3\bin\Debug\exercise3.pdb
+C:\Users\УринбасаровД\Documents\Visual Studio 2017\Projects\PracktTask03\exercise3\obj\Debug\exercise3.exe
+C:\Users\УринбасаровД\Documents\Visual Studio 2017\Projects\PracktTask03\exercise3\obj\Debug\exercise3.pdb
